@@ -1,4 +1,4 @@
-1. Line on the textview
+1. Android Strikethrough Text
   => TextView.setPaintFlags(tv_row_eventproductitem_regularprice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
   
 2. Set Format
