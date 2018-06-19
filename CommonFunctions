@@ -1,0 +1,13 @@
+1. Line on the textview
+  => TextView.setPaintFlags(tv_row_eventproductitem_regularprice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+  
+2. Set Format
+  => public static String changeStringDecimalFormat(String disValue, float discountedValue) {
+        String data = "0.0";
+        if (disValue != null)
+            data = String.format("%.2f", String.format("%.2f", Float.valueOf(disValue)));
+        else
+            data = String.format("%.2f", discountedValue);
+
+        return data;
+    }
