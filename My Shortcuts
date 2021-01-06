@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------------------------------
+Add This file to use admob without adding app id in matadata android
+
+<manifest>
+    <application>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+    </application>
+</manifest>
+
+----------------------------------------------------------------------------------------------------------
