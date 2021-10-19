@@ -1,3 +1,4 @@
+---------------Android X Basic Libraries---------------
 implementation 'androidx.navigation:navigation-fragment:2.3.5'
 implementation 'androidx.navigation:navigation-ui:2.3.5'
 implementation 'androidx.navigation:navigation-fragment:2.3.5'
@@ -13,7 +14,7 @@ implementation 'com.google.android.material:material:1.4.0'
 
 
 
-
+---------------Usefull Libraries---------------
 implementation 'de.hdodenhof:circleimageview:3.1.0'
 implementation 'com.aapbd:appbajar-lib:1.0.2'
 implementation 'com.android.volley:volley:1.2.1'
@@ -28,16 +29,28 @@ implementation 'com.kaopiz:kprogresshud:1.1.0'
 implementation 'com.github.javiersantos:AppUpdater:2.7'
 implementation 'com.kaopiz:kprogresshud:1.2.0'
 implementation 'com.onesignal:OneSignal:3.14.0'
+implementation 'com.google.code.gson:gson:2.8.5'
+implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
 
-
-
+----------------------------Scanner---------------------------
+implementation 'me.dm7.barcodescanner:zbar:1.9.3'
+implementation 'me.dm7.barcodescanner:zxing:1.9.3'
  
+ 
+ 
+
+
+
+----------------------------V4---------------------------
 implementation 'androidx.legacy:legacy-support-v4:1.0.0' 
 implementation 'com.android.support:support-v4:30.0.0'
  
 implementation 'com.android.support:design:30.0.0'
 implementation 'com.android.support:cardview-v7:30.0.0'
 
+ 
+-----------------------Generate APK Format-----------------------
 buildTypes {
         debug {
             minifyEnabled false
